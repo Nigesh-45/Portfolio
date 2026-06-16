@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/SocialIcons';
-import heroImage from '../assets/hero.png';
+import heroImage from '../assets/hero.jpg';
 
 export default function Hero() {
   const words = ['actionable.', 'predictive.', 'intelligent.', 'impactful.'];
