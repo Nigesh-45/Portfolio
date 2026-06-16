@@ -88,13 +88,13 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>
-                Work
+              <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>
+                Skills
               </a>
             </li>
             <li>
-              <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>
-                Styleguide
+              <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>
+                Work
               </a>
             </li>
             <li>
