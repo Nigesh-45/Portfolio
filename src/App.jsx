@@ -39,7 +39,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'experience', 'about', 'skills', 'contact'];
+      const sections = ['home', 'about', 'skills', 'experience', 'contact'];
       const scrollPosition = window.scrollY + 250; // offset
 
       for (const section of sections) {
@@ -83,13 +83,13 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>
-                Work
+              <a href="#about" className={activeSection === 'about' ? 'active' : ''}>
+                About
               </a>
             </li>
             <li>
-              <a href="#about" className={activeSection === 'about' ? 'active' : ''}>
-                About
+              <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>
+                Work
               </a>
             </li>
             <li>
